@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Load data
 const productsData = JSON.parse(fs.readFileSync(
-  path.join(__dirname, 'src/data/products.json'), 
+  path.join(__dirname, 'products.json'), 
   'utf-8'
 ));
 
