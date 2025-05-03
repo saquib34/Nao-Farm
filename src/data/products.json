@@ -1,0 +1,70 @@
+{
+    "crops": [
+      {
+        "id": "tomato-124",
+        "name": "Tomato #124",
+        "image": "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "growthStage": "Harvested",
+        "plantedDate": "2025-01-15"
+      },
+      {
+        "id": "carrot-56",
+        "name": "Carrot #56",
+        "image": "https://images.unsplash.com/photo-1582515073490-39981397c445?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "growthStage": "Growing",
+        "plantedDate": "2025-02-10"
+      },
+      {
+        "id": "lettuce-78",
+        "name": "Lettuce #78",
+        "image": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80",
+        "growthStage": "Harvested",
+        "plantedDate": "2025-01-25"
+      },
+      {
+        "id": "potato-42",
+        "name": "Potato #42",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "growthStage": "Growing",
+        "plantedDate": "2025-03-01"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod-124",
+        "cropId": "tomato-124",
+        "title": "Fresh Organic Tomato Box",
+        "price": "19,000 KRW",
+        "image": "https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "description": "Box of 6 organically grown fresh tomatoes from local farms",
+        "buyLink": "https://nori-farm-shop.com/product/123"
+      },
+      {
+        "id": "prod-56",
+        "cropId": "carrot-56",
+        "title": "Organic Carrot Bundle",
+        "price": "12,500 KRW",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "description": "Bundle of fresh organic carrots harvested within 24 hours",
+        "buyLink": "https://nori-farm-shop.com/product/456"
+      },
+      {
+        "id": "prod-78",
+        "cropId": "lettuce-78",
+        "title": "Hydroponic Lettuce Pack",
+        "price": "8,900 KRW",
+        "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "description": "Pack of 2 hydroponically grown fresh lettuce heads",
+        "buyLink": "https://nori-farm-shop.com/product/789"
+      },
+      {
+        "id": "prod-42",
+        "cropId": "potato-42",
+        "title": "Jeju Island Potato Bag",
+        "price": "15,000 KRW",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        "description": "2kg bag of premium Jeju Island potatoes",
+        "buyLink": "https://nori-farm-shop.com/product/101"
+      }
+    ]
+  }
