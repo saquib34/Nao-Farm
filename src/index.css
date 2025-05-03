@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-image: linear-gradient(to bottom right, #f0fdf4, #dcfce7);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .card {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-0.25rem);
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .btn-primary {
+    background-color: #047857; /* nori-green */
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #065f46; /* nori-dark */
+  }
+  
+  .btn-secondary {
+    background-color: #d1fae5; /* nori-light */
+    color: #065f46; /* nori-dark */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #10b981; /* nori-accent */
+    color: #ffffff;
+  }
+  
+  .input {
+    border: 1px solid #d1d5db; /* gray-300 */
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+  }
+  
+  .input:focus {
+    ring: 2px solid #047857; /* nori-green */
+    border-color: transparent;
+  }
+}
